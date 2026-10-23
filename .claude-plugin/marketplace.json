@@ -1,0 +1,15 @@
+{
+  "name": "wizard-creier",
+  "description": "Pluginurile Wizard pentru al doilea creier al firmei.",
+  "owner": {
+    "name": "Silviu",
+    "url": "https://github.com/silviu-life"
+  },
+  "plugins": [
+    {
+      "name": "wizard-creier",
+      "source": "./plugins/wizard-creier",
+      "description": "Al doilea creier al firmei în Claude Code: aduci tot ce știe Claude despre tine din chat și CoWork, îl pui în sertare, îi scrii regulile și construiești proceduri care lucrează din el."
+    }
+  ]
+}

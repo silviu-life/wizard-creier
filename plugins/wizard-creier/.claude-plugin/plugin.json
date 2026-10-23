@@ -1,0 +1,8 @@
+{
+  "name": "wizard-creier",
+  "version": "0.1.0",
+  "description": "Al doilea creier al firmei în Claude Code: aduci tot ce știe Claude despre tine din chat și CoWork, îl pui în sertare, îi scrii regulile și construiești proceduri care lucrează din el.",
+  "author": {"name": "Silviu", "url": "https://github.com/silviu-life"},
+  "repository": "https://github.com/silviu-life/wizard-creier",
+  "keywords": ["second-brain", "claude-md", "skills", "wizard"]
+}
