@@ -29,10 +29,11 @@ Cazuri frecvente:
 |---|---|---|
 | `You've hit your session limit · resets …` | s-a consumat limita pe intervalul ăsta | lasă sesiunea deschisă; după ora scrisă, scrie „continuă" |
 | Claude nu vede un fișier | fișierul e în afara folderului `creier/` | trage fișierul în fereastră sau copiază-l în `00-brut/` |
-| `/creier-import` sau altă comandă a cursului nu apare | pluginul nu e instalat sau nu s-a încărcat | scrie `/reload-plugins`; dacă tot nu apare, `/plugin` și verifici că `wizard-creier` e instalat |
-| O procedură făcută de tine (`/oferta`) nu apare | skill-ul nou nu s-a încărcat încă | închide sesiunea și deschide-o din nou în folderul `creier/` |
+| `/creier-import` sau altă comandă a cursului nu apare | pluginul nu e instalat sau nu s-a încărcat | scrie `/reload-plugins`; dacă tot nu apare, verifici în lista de pluginuri că `wizard-creier` e instalat |
+| Claude nu știe nimic despre tine sau nu găsește sertarele | sesiunea e deschisă în alt folder | deschide o sesiune nouă și alege folderul creierului |
+| O procedură făcută de tine (`/oferta`) nu apare sau folosește textul vechi | skill-ul nou sau modificat nu s-a încărcat încă | scrie `/reload-skills`; dacă nu ajută, deschide o sesiune nouă în folderul creierului |
 | `python` nu e recunoscut | Python nu e instalat | rulează `/creier-import` din nou; te întreabă dacă îl instalează |
-| Claude nu vede Gmail sau Drive | conectorul nu e legat de contul tău | în claude.ai, la Settings → Connectors, conectezi Gmail sau Drive, apoi deschizi o sesiune nouă |
+| Claude nu vede Gmail sau Drive | conectorul nu e legat de contul tău | în claude.ai, la pagina de conectori (claude.ai/customize/connectors), sau în Desktop la **+** → Add connectors, conectezi Gmail sau Drive, apoi deschizi o sesiune nouă; pe conturile Team sau Enterprise îi adaugă administratorul |
 | Claude întreabă dacă are voie să facă ceva | cere permisiune | citește ce vrea să facă; dacă e în folderul `creier/` și are legătură cu lecția, alegi Yes |
 | Claude a făcut altceva decât ai vrut | cererea a fost înțeleasă altfel | spune-i exact ce vrei, în cuvintele tale, și ce să nu facă |
 
@@ -42,7 +43,7 @@ Dacă nu recunoști eroarea, o cauți pe internet (WebSearch) înainte să ghice
 
 Îl întrebi ce a ieșit. Dacă merge, îi spui unde rămăsese în lecție. Dacă nu, treci la pasul următor, tot unul singur.
 
-După trei pași fără rezultat, îi spui cinstit: „Nu reușesc de aici." Îi faci un rezumat scurt pe care să-l trimită în comunitatea cursului: ce încerca, ce eroare a apărut, ce ați încercat deja.
+După trei pași fără rezultat, îi spui cinstit: „Nu reușesc de aici." Îi faci un rezumat scurt pe care să-l trimită în comunitatea cursului: ce încerca, ce eroare a apărut, ce ați încercat deja. Scoți din rezumat numele de clienți, adresele și alte date private.
 
 ## Nu face
 
